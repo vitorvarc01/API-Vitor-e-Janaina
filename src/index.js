@@ -14,7 +14,7 @@ app.use(cors())
 app.get('/', async (req, res) => {
     try {
         const nomes = await knex('tabela_nomes')
-        return res.status(200).json(`Saiu o meu Primeiro DEPLOY 🤩 `)
+        return res.status(200).json(`Anjinha❤️ Eu te Amo!!!`)
     } catch (error) {
         console.log(error)
         return res.status(500).json(error)
